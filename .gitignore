@@ -1,0 +1,42 @@
+# Бинарные файлы
+/server
+/test_currency
+
+# Объектные файлы и библиотеки
+*.o
+*.a
+*.so
+*.out
+*.exe
+
+# Директории с собранными файлами
+/obj/
+/docs/
+
+# Логи
+*.log
+
+# Редакторы и IDE
+*.swp
+*.swo
+/.vscode/
+/.idea/
+*.sublime-*
+.DS_Store
+
+# Файлы тестов и покрытия
+*.gcda
+*.gcno
+*.gcov
+
+# Core dumps
+core
+core.*
+
+# Временные файлы
+*~
+.*.swp
+.*.swo
+
+# Сертификаты и ключи
+/ssl/
