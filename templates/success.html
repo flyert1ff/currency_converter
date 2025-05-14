@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Результат конвертации</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <main class="converter-container">
+        <h1>Результат конвертации</h1>
+        <div class="message message-success" role="status">
+            <p>
+                <span class="amount">%s %s</span>
+                <span class="equals">=</span>
+                <span class="result">%.2f %s</span>
+            </p>
+        </div>
+        <form method="GET" action="/" aria-label="Вернуться на главную">
+            <button type="submit" class="back-button">Новая конвертация</button>
+        </form>
+    </main>
+</body>
+</html> 
